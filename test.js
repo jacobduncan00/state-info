@@ -50,7 +50,7 @@ function getInfo() {
                     let flagPic = document.createElement("img");
                     flagPic.id = "flag-pic";
                     flagPic.src = ind.flag;
-                    flagPic.style = "width:600px; height:400px;"
+                    flagPic.style = "width:400px; height:300px;"
                     container.appendChild(flagPic);
 
                     document.body.append(container);
